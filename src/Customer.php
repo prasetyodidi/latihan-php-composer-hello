@@ -6,7 +6,7 @@ class Customer {
 
     private string $name;
 
-    public function __construct(string $name) {
+    public function __construct(string $name = "Guest") {
         $this->name = $name;
     }
 
